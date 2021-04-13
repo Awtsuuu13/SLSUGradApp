@@ -1,0 +1,190 @@
+
+.progress-bar {
+    color: #333;
+}
+
+/*
+Reference:
+http://www.bootstrapzen.com/item/135/simple-login-form-logo/
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+    .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+body {
+  background:url(assets/img/1.jpg) repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.login-form {
+  margin-top: 60px;
+}
+
+form[role=login] {
+  color: #5d5d5d;
+  background: #b0ec81;
+  padding: 26px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+  form[role=login] img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    height: 90px;
+  }
+  form[role=login] input,
+  form[role=login] button {
+    font-size: 18px;
+    margin: 16px 0;
+  }
+  form[role=login] > div {
+    text-align: center;
+  }
+
+.form-links {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 50px;
+}
+  .form-links a {
+    color: #fff;
+  }
+
+  td{
+    font-size: 12px;
+  }
+
+  #card-header{
+    font-size: 36px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 30px 0 20px 15px;
+    padding-bottom: 9px;
+    font-weight: 500;
+    line-height: 1.1;
+    border-bottom: 1px solid #eee;
+  }
+  #page-header{
+    font-size: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-bottom: 1px solid #eee;
+    margin: 30px 0 20px;
+    padding-bottom: 9px;
+  }
+
+  #page-header .btn-success, .btn-primary, .btn-warning{
+    font-size: 12px;
+  }
+  .panel>.list-group .list-group-items:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .panel>.list-group .list-group-items{
+    border-width: 1px 0;
+  }
+
+  .list-group-items:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+  }
+
+  .list-group-items{
+      position: relative;
+      display: block;
+      padding: 10px 15px;
+      margin-bottom: -1px;
+      background-color: #fff;
+      border: 1px solid #ddd;
+  }
+
+  .pull-left{
+    float: left;
+  }
+
+  .input-group-addon {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px
+
+  }
+
+
+  .center{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%
+  }
+
+  #add_enrolled{
+    margin-bottom: 10px;
+    float: right;
+  }
+
+  .student_details{
+    display: flex;
+  }
+
+  .student_1{
+  
+    font-size: 18px;
+    border-top: 2px solid #cccbcb;
+  }
+
+  .student_1 span{
+   float: right;
+    
+  }
+
+  #label{
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .form-student{
+    border-bottom: 1px solid #ddd;
+  }
+
+  .spacing{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .result{
+    border: 2px solid #f8f8f8;
+    border-radius: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+
+  }
+
+  .dept-name{
+    padding-left: 15px;
+    font-weight: bold;
+  }
